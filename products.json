@@ -1,15 +1,16 @@
-[
-    "categories": [
+{
+  "categories": [
     {"name": "battlepass", "ru": "Battle Pass", "eng": "Battle Pass"},
     {"name": "gold", "ru": "Голда", "eng": "Gold"},
     {"name": "skins", "ru": "Скины", "eng": "Skins"}
   ],
-  {
-    "name": "Gold Pass",
-    "rub": 149,
-    "stars": 110,
-    "usdt": 1.94,
-    "category": "battlepass"
-  }
-]
-
+  "products": [
+    {
+      "name": "Gold Pass",
+      "rub": 149,
+      "stars": 110,
+      "usdt": 1.94,
+      "category": "battlepass"
+    }
+  ]
+}
