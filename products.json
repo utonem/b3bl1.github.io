@@ -35,12 +35,14 @@
       "quantity": 20,
       "goldpass": true,
     },
-    "name": "1 уровень Battle Pass",
+      
+    "name": "1 Level Battle Pass",
     "rub": 5,
     "stars": 5,
     "usdt": 0.05,
-    "category": "battlepass",
-      
+    "category": "battlepass"
+    },
+    
     {
       "name": "5000 Gold",
       "rub": 49,
