@@ -22,8 +22,8 @@
       "rub": 149,
       "stars": 111,
       "usdt": 1.49,
-      "category": "battlepass"
-      "quantity": 0
+      "category": "battlepass",
+      "quantity": 0,
       "goldpass": true
     },
     {
@@ -33,14 +33,16 @@
       "usdt": 2.49,
       "category": "battlepass",
       "quantity": 20,
-      "goldpass": true,
+      "goldpass": true
     },
     { 
     "name": "1 Level Battle Pass",
     "rub": 5,
     "stars": 5,
     "usdt": 0.05,
-    "category": "battlepass"
+    "category": "battlepass",
+    "quantity": 1,
+    "goldpass": false
     },
     
     {
