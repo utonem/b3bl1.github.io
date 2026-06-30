@@ -1,16 +1,2401 @@
 {
   "categories": [
-    {"name": "battlepass", "ru": "Battle Pass", "eng": "Battle Pass"},
-    {"name": "gold", "ru": "Голда", "eng": "Gold"},
-    {"name": "skins", "ru": "Скины", "eng": "Skins"}
+    {
+      "name": "battlepass",
+      "ru": "Battle Pass",
+      "eng": "Battle Pass"
+    },
+    {
+      "name": "gold",
+      "ru": "Голда",
+      "eng": "Gold"
+    },
+    {
+      "name": "skins",
+      "ru": "Скины",
+      "eng": "Skins"
+    }
   ],
   "products": [
     {
       "name": "Gold Pass",
       "rub": 149,
-      "stars": 110,
-      "usdt": 1.94,
+      "stars": 111,
+      "usdt": 1.49,
       "category": "battlepass"
+    },
+    {
+      "name": "Gold Pass + 20 Levels",
+      "rub": 249,
+      "stars": 186,
+      "usdt": 2.49,
+      "category": "battlepass"
+    },
+    {
+      "name": "5000 Gold",
+      "rub": 49,
+      "stars": 37,
+      "usdt": 0.49,
+      "category": "gold"
+    },
+    {
+      "name": "10000 Gold",
+      "rub": 99,
+      "stars": 74,
+      "usdt": 0.99,
+      "category": "gold"
+    },
+    {
+      "name": "25000 Gold",
+      "rub": 200,
+      "stars": 149,
+      "usdt": 2.0,
+      "category": "gold"
+    },
+    {
+      "name": "50000 Gold",
+      "rub": 399,
+      "stars": 298,
+      "usdt": 3.99,
+      "category": "gold"
+    },
+    {
+      "name": "100000 Gold",
+      "rub": 799,
+      "stars": 596,
+      "usdt": 7.99,
+      "category": "gold"
+    },
+    {
+      "name": "AKR \"Carbon\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Carbon\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Nano\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Nano\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Necromancer\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Necromancer\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Scale\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Sport\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Sport\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Tiger\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Armored\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Aurora\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Carbon\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Carbon\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Mechanic\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Pixel Camouflage\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Pixel Camouflage\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Railgun\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Roar\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Spring\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Transistor\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"BOOM\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Dragon\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Dragon\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Elevation\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Gear\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Gear\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Phoenix\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Phoenix\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Scratch\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Scratch\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Blood\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Dragon Glass\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Dragon Glass\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Orochi\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Orochi\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Predator\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Predator\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Red Dragon\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Red Dragon\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Thunder\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Winner\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Wraith\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Wraith\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Anger\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Beagle\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Beagle\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "FN FAL \"Aquamarine\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Cursed Fire\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Parrot\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Reactor\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Frost Wyrm\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Frost Wyrm\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Pattern\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Pixel Camouflage\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Yellow Line\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M110 \"Flow\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Camouflage\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Facet\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Grand Prix\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Necromancer\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Night Wolf\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Night Wolf\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"PRO\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"PRO\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Tiger\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Cursed Fire\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Quake\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Quake\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M4A1 \"Kitsune\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Grunge\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Grunge\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Steam Beast\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Arcade\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Arcade\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Graffiti\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Graffiti\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Nano\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Neon\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Neon\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Savannah\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Skull\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Fissure\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Ghoul\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Ghoul\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Radiation\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Samurai\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Facet\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Necromancer\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Necromancer\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Northern Camouflage\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Pathfinder\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Pathfinder\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Quake\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Tropic\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "TEC-9 \"Dalmatian\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"4 Years\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Beast\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Beast\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Cyberpunk\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Cyberpunk\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Geometric\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Pixel\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Shark\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Shark\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"White Carbon\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Winged\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Winged\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Chameleon\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Chameleon\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Line\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Ray\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Genesis\"",
+      "rub": 12,
+      "stars": 9,
+      "usdt": 0.12,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Arctic\" StatTrack",
+      "rub": 12,
+      "stars": 9,
+      "usdt": 0.12,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Autumn\"",
+      "rub": 13,
+      "stars": 10,
+      "usdt": 0.13,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"BOOM\" StatTrack",
+      "rub": 15,
+      "stars": 11,
+      "usdt": 0.15,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Flight\"",
+      "rub": 15,
+      "stars": 11,
+      "usdt": 0.15,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Transistor\" StatTrack",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Polar Night\"",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Enforcer\" StatTrack",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Reactor\" StatTrack",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Nest\"",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Autumn\" StatTrack",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Spirit\" StatTrack",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
+      "category": "skins"
+    },
+    {
+      "name": "M110 \"Transition\"",
+      "rub": 18,
+      "stars": 13,
+      "usdt": 0.18,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Armored\" StatTrack",
+      "rub": 19,
+      "stars": 14,
+      "usdt": 0.19,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Waste\"",
+      "rub": 19,
+      "stars": 14,
+      "usdt": 0.19,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Scale\"",
+      "rub": 19,
+      "stars": 14,
+      "usdt": 0.19,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Pilot\"",
+      "rub": 19,
+      "stars": 14,
+      "usdt": 0.19,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Branches\"",
+      "rub": 19,
+      "stars": 14,
+      "usdt": 0.19,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Iron\"",
+      "rub": 19,
+      "stars": 14,
+      "usdt": 0.19,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Fury\"",
+      "rub": 20,
+      "stars": 15,
+      "usdt": 0.2,
+      "category": "skins"
+    },
+    {
+      "name": "M110 \"Z-07 M.A.R.K.S.M.A.N.\"",
+      "rub": 20,
+      "stars": 15,
+      "usdt": 0.2,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Y-20 R.A.I.J.I.N.\"",
+      "rub": 20,
+      "stars": 15,
+      "usdt": 0.2,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Samurai\" StatTrack",
+      "rub": 21,
+      "stars": 16,
+      "usdt": 0.21,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Dragon\"",
+      "rub": 22,
+      "stars": 16,
+      "usdt": 0.22,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Necromancer\" StatTrack",
+      "rub": 23,
+      "stars": 17,
+      "usdt": 0.23,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Rush\"",
+      "rub": 24,
+      "stars": 18,
+      "usdt": 0.24,
+      "category": "skins"
+    },
+    {
+      "name": "M4A1 \"Bubblegum\"",
+      "rub": 24,
+      "stars": 18,
+      "usdt": 0.24,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"Northern Fury\"",
+      "rub": 24,
+      "stars": 18,
+      "usdt": 0.24,
+      "category": "skins"
+    },
+    {
+      "name": "Scorpion \"Scratch\"",
+      "rub": 24,
+      "stars": 18,
+      "usdt": 0.24,
+      "category": "skins"
+    },
+    {
+      "name": "Scorpion \"Sea Eye\"",
+      "rub": 24,
+      "stars": 18,
+      "usdt": 0.24,
+      "category": "skins"
+    },
+    {
+      "name": "Scorpion \"Veil\"",
+      "rub": 24,
+      "stars": 18,
+      "usdt": 0.24,
+      "category": "skins"
+    },
+    {
+      "name": "TEC-9 \"Reactor\"",
+      "rub": 24,
+      "stars": 18,
+      "usdt": 0.24,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Winged\"",
+      "rub": 27,
+      "stars": 20,
+      "usdt": 0.27,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Autumn\"",
+      "rub": 28,
+      "stars": 21,
+      "usdt": 0.28,
+      "category": "skins"
+    },
+    {
+      "name": "Scorpion \"Starfall\"",
+      "rub": 28,
+      "stars": 21,
+      "usdt": 0.28,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Inferno\"",
+      "rub": 29,
+      "stars": 22,
+      "usdt": 0.29,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Peaceful Dream\"",
+      "rub": 29,
+      "stars": 22,
+      "usdt": 0.29,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Autumn\" StatTrack",
+      "rub": 32,
+      "stars": 24,
+      "usdt": 0.32,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Arctic\"",
+      "rub": 32,
+      "stars": 24,
+      "usdt": 0.32,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Forest Spirit\"",
+      "rub": 32,
+      "stars": 24,
+      "usdt": 0.32,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Railgun\" StatTrack",
+      "rub": 35,
+      "stars": 26,
+      "usdt": 0.35,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Zone\"",
+      "rub": 36,
+      "stars": 27,
+      "usdt": 0.36,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Hull\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Carbon\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Demon\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Beagle\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "M4A1 \"Kitsune\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"Project Z9\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Banana\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Oni\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Rally\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Wave\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "TEC-9 \"Tropic\"",
+      "rub": 39,
+      "stars": 29,
+      "usdt": 0.39,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Flow\" StatTrack",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Geometric\"",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Genesis\" StatTrack",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Flight\" StatTrack",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Winged\" StatTrack",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"PRO\"",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Winter Track\"",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"4 Years\"",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"Northern Fury\" StatTrack",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"Reactor\"",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"4 Years\"",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Floral\"",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "skins"
+    },
+    {
+      "name": "M110 \"Transition\" StatTrack",
+      "rub": 44,
+      "stars": 33,
+      "usdt": 0.44,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Ancient\"",
+      "rub": 46,
+      "stars": 34,
+      "usdt": 0.46,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Luxury\"",
+      "rub": 46,
+      "stars": 34,
+      "usdt": 0.46,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Fury\" StatTrack",
+      "rub": 48,
+      "stars": 36,
+      "usdt": 0.48,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Winter Sport\"",
+      "rub": 48,
+      "stars": 36,
+      "usdt": 0.48,
+      "category": "skins"
+    },
+    {
+      "name": "Tanto \"Dojo\"",
+      "rub": 48,
+      "stars": 36,
+      "usdt": 0.48,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Z-50 F.U.J.I.N.\" StatTrack",
+      "rub": 52,
+      "stars": 39,
+      "usdt": 0.52,
+      "category": "skins"
+    },
+    {
+      "name": "M110 \"Z-07 M.A.R.K.S.M.A.N.\" StatTrack",
+      "rub": 54,
+      "stars": 40,
+      "usdt": 0.54,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Dragon\" StatTrack",
+      "rub": 56,
+      "stars": 42,
+      "usdt": 0.56,
+      "category": "skins"
+    },
+    {
+      "name": "M110 \"Flow\"",
+      "rub": 56,
+      "stars": 42,
+      "usdt": 0.56,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Revival\"",
+      "rub": 56,
+      "stars": 42,
+      "usdt": 0.56,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Forest Spirit\" StatTrack",
+      "rub": 56,
+      "stars": 42,
+      "usdt": 0.56,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Hull\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Carbon\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Demon\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Beagle\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Banana\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Oni\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Rally\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Wave\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "TEC-9 \"Tropic\" StatTrack",
+      "rub": 58,
+      "stars": 43,
+      "usdt": 0.58,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Revival\" StatTrack",
+      "rub": 64,
+      "stars": 48,
+      "usdt": 0.64,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Spirit\"",
+      "rub": 68,
+      "stars": 51,
+      "usdt": 0.68,
+      "category": "skins"
+    },
+    {
+      "name": "M4A1 \"Bubblegum\" StatTrack",
+      "rub": 72,
+      "stars": 54,
+      "usdt": 0.72,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"R.O.N.I.N. mk9\"",
+      "rub": 72,
+      "stars": 54,
+      "usdt": 0.72,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Gas\"",
+      "rub": 72,
+      "stars": 54,
+      "usdt": 0.72,
+      "category": "skins"
+    },
+    {
+      "name": "Tanto \"Flow\"",
+      "rub": 76,
+      "stars": 57,
+      "usdt": 0.76,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Polar Night\" StatTrack",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Enforcer\"",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Universe\"",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Arctic\" StatTrack",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Winter Track\" StatTrack",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Geometric\" StatTrack",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Reaper\"",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Monster\" StatTrack",
+      "rub": 81,
+      "stars": 60,
+      "usdt": 0.81,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Nest\" StatTrack",
+      "rub": 88,
+      "stars": 66,
+      "usdt": 0.88,
+      "category": "skins"
+    },
+    {
+      "name": "Tanto \"Yakuza\"",
+      "rub": 88,
+      "stars": 66,
+      "usdt": 0.88,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"Project Z9\" StatTrack",
+      "rub": 96,
+      "stars": 72,
+      "usdt": 0.96,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Iron Will\" StatTrack",
+      "rub": 96,
+      "stars": 72,
+      "usdt": 0.96,
+      "category": "skins"
+    },
+    {
+      "name": "TEC-9 \"Necromancer\"",
+      "rub": 96,
+      "stars": 72,
+      "usdt": 0.96,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"R.O.N.I.N. mk56\"",
+      "rub": 100,
+      "stars": 75,
+      "usdt": 1.0,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Treasure Hunter\"",
+      "rub": 104,
+      "stars": 78,
+      "usdt": 1.04,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"Zone\"",
+      "rub": 106,
+      "stars": 79,
+      "usdt": 1.06,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Dragon Glass\"",
+      "rub": 112,
+      "stars": 84,
+      "usdt": 1.12,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Y-20 R.A.I.J.I.N.\" StatTrack",
+      "rub": 112,
+      "stars": 84,
+      "usdt": 1.12,
+      "category": "skins"
+    },
+    {
+      "name": "M9 Bayonet \"Ancient\"",
+      "rub": 116,
+      "stars": 87,
+      "usdt": 1.16,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Flow\"",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Zone\" StatTrack",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Monster\"",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Claw\"",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Scratch\"",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Triumphant\"",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"R.O.N.I.N. mk56\" StatTrack",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"Reactor\" StatTrack",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Winter Sport\" StatTrack",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"R.O.N.I.N. mk9\" StatTrack",
+      "rub": 120,
+      "stars": 90,
+      "usdt": 1.2,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Rush\" StatTrack",
+      "rub": 126,
+      "stars": 94,
+      "usdt": 1.26,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Anger\"",
+      "rub": 129,
+      "stars": 96,
+      "usdt": 1.29,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Parrot\"",
+      "rub": 129,
+      "stars": 96,
+      "usdt": 1.29,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Grand Prix\"",
+      "rub": 129,
+      "stars": 96,
+      "usdt": 1.29,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Steam Beast\"",
+      "rub": 129,
+      "stars": 96,
+      "usdt": 1.29,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Offroad\"",
+      "rub": 129,
+      "stars": 96,
+      "usdt": 1.29,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Palace\"",
+      "rub": 129,
+      "stars": 96,
+      "usdt": 1.29,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Monster\"",
+      "rub": 144,
+      "stars": 107,
+      "usdt": 1.44,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"White Carbon\" StatTrack",
+      "rub": 151,
+      "stars": 113,
+      "usdt": 1.51,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Yakuza\"",
+      "rub": 152,
+      "stars": 113,
+      "usdt": 1.52,
+      "category": "skins"
+    },
+    {
+      "name": "M9 Bayonet \"Dragon Glass\"",
+      "rub": 152,
+      "stars": 113,
+      "usdt": 1.52,
+      "category": "skins"
+    },
+    {
+      "name": "Tanto \"Transistor\"",
+      "rub": 152,
+      "stars": 113,
+      "usdt": 1.52,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"2 Years\"",
+      "rub": 152,
+      "stars": 113,
+      "usdt": 1.52,
+      "category": "skins"
+    },
+    {
+      "name": "Kunai \"Bone\"",
+      "rub": 160,
+      "stars": 119,
+      "usdt": 1.6,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"4 Years\"",
+      "rub": 160,
+      "stars": 119,
+      "usdt": 1.6,
+      "category": "skins"
+    },
+    {
+      "name": "Tanto \"Malachite\"",
+      "rub": 160,
+      "stars": 119,
+      "usdt": 1.6,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Offroad\" StatTrack",
+      "rub": 193,
+      "stars": 144,
+      "usdt": 1.93,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Palace\" StatTrack",
+      "rub": 193,
+      "stars": 144,
+      "usdt": 1.93,
+      "category": "skins"
+    },
+    {
+      "name": "UMP45 \"Gas\" StatTrack",
+      "rub": 193,
+      "stars": 144,
+      "usdt": 1.93,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"4 Years\"",
+      "rub": 200,
+      "stars": 149,
+      "usdt": 2.0,
+      "category": "skins"
+    },
+    {
+      "name": "M4A1 \"K.I.N.G. v7.03\" StatTrack",
+      "rub": 200,
+      "stars": 149,
+      "usdt": 2.0,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Radiation\"",
+      "rub": 200,
+      "stars": 149,
+      "usdt": 2.0,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Iron Will\"",
+      "rub": 200,
+      "stars": 149,
+      "usdt": 2.0,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Arctic\"",
+      "rub": 200,
+      "stars": 149,
+      "usdt": 2.0,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Stone Cold\"",
+      "rub": 200,
+      "stars": 149,
+      "usdt": 2.0,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Sport V2\"",
+      "rub": 232,
+      "stars": 173,
+      "usdt": 2.32,
+      "category": "skins"
+    },
+    {
+      "name": "Kunai \"Luxury\"",
+      "rub": 240,
+      "stars": 179,
+      "usdt": 2.4,
+      "category": "skins"
+    },
+    {
+      "name": "Kunai \"Poison\"",
+      "rub": 240,
+      "stars": 179,
+      "usdt": 2.4,
+      "category": "skins"
+    },
+    {
+      "name": "M4 \"Revival\" StatTrack",
+      "rub": 240,
+      "stars": 179,
+      "usdt": 2.4,
+      "category": "skins"
+    },
+    {
+      "name": "M9 Bayonet \"Scratch\"",
+      "rub": 240,
+      "stars": 179,
+      "usdt": 2.4,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"2 Years\"",
+      "rub": 240,
+      "stars": 179,
+      "usdt": 2.4,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"Treasure Hunter\" StatTrack",
+      "rub": 248,
+      "stars": 185,
+      "usdt": 2.48,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Iron Will\"",
+      "rub": 267,
+      "stars": 199,
+      "usdt": 2.67,
+      "category": "skins"
+    },
+    {
+      "name": "M4A1 \"K.I.N.G. v7.03\"",
+      "rub": 267,
+      "stars": 199,
+      "usdt": 2.67,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Snow Camo\"",
+      "rub": 280,
+      "stars": 209,
+      "usdt": 2.8,
+      "category": "skins"
+    },
+    {
+      "name": "FN FAL \"Phoenix Risen\"",
+      "rub": 304,
+      "stars": 227,
+      "usdt": 3.04,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Frozen\"",
+      "rub": 311,
+      "stars": 232,
+      "usdt": 3.11,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Winter Sport\"",
+      "rub": 320,
+      "stars": 239,
+      "usdt": 3.2,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Mecha\"",
+      "rub": 320,
+      "stars": 239,
+      "usdt": 3.2,
+      "category": "skins"
+    },
+    {
+      "name": "M9 Bayonet \"Universe\"",
+      "rub": 320,
+      "stars": 239,
+      "usdt": 3.2,
+      "category": "skins"
+    },
+    {
+      "name": "TEC-9 \"Reactor\" StatTrack",
+      "rub": 320,
+      "stars": 239,
+      "usdt": 3.2,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Relic\"",
+      "rub": 346,
+      "stars": 258,
+      "usdt": 3.46,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"White Carbon\"",
+      "rub": 356,
+      "stars": 266,
+      "usdt": 3.56,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Z-50 F.U.J.I.N.\"",
+      "rub": 356,
+      "stars": 266,
+      "usdt": 3.56,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Frozen\"",
+      "rub": 360,
+      "stars": 269,
+      "usdt": 3.6,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Gold\"",
+      "rub": 360,
+      "stars": 269,
+      "usdt": 3.6,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"2 Years Red\"",
+      "rub": 360,
+      "stars": 269,
+      "usdt": 3.6,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Winter Sport\" StatTrack",
+      "rub": 391,
+      "stars": 292,
+      "usdt": 3.91,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Geometric\" StatTrack",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "Flip \"Arctic\"",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "Flip \"Stone Cold\"",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Frozen\" StatTrack",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"White Carbon\" StatTrack",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "MP5 \"Zone\" StatTrack",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Revival\"",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Blizzard\"",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"2 Years Red\"",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Stone Cold\" StatTrack",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "FN FAL \"Phoenix Risen\" StatTrack",
+      "rub": 444,
+      "stars": 331,
+      "usdt": 4.44,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Iron Will\" StatTrack",
+      "rub": 444,
+      "stars": 331,
+      "usdt": 4.44,
+      "category": "skins"
+    },
+    {
+      "name": "FAMAS \"Monster\" StatTrack",
+      "rub": 448,
+      "stars": 334,
+      "usdt": 4.48,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Triumphant\" StatTrack",
+      "rub": 448,
+      "stars": 334,
+      "usdt": 4.48,
+      "category": "skins"
+    },
+    {
+      "name": "Flip \"Snow Camo\"",
+      "rub": 452,
+      "stars": 337,
+      "usdt": 4.52,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Frozen\"",
+      "rub": 480,
+      "stars": 358,
+      "usdt": 4.8,
+      "category": "skins"
+    },
+    {
+      "name": "Kunai \"Reaper\"",
+      "rub": 480,
+      "stars": 358,
+      "usdt": 4.8,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Poison\"",
+      "rub": 524,
+      "stars": 391,
+      "usdt": 5.24,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Cold Flame\"",
+      "rub": 560,
+      "stars": 418,
+      "usdt": 5.6,
+      "category": "skins"
+    },
+    {
+      "name": "Scorpion \"Cold Flame\"",
+      "rub": 560,
+      "stars": 418,
+      "usdt": 5.6,
+      "category": "skins"
+    },
+    {
+      "name": "Kunai \"Cold Flame\"",
+      "rub": 576,
+      "stars": 430,
+      "usdt": 5.76,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Genesis\"",
+      "rub": 600,
+      "stars": 448,
+      "usdt": 6.0,
+      "category": "skins"
+    },
+    {
+      "name": "F/S \"Poison\" StatTrack",
+      "rub": 640,
+      "stars": 478,
+      "usdt": 6.4,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Aureate\"",
+      "rub": 649,
+      "stars": 484,
+      "usdt": 6.49,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Monster\"",
+      "rub": 649,
+      "stars": 484,
+      "usdt": 6.49,
+      "category": "skins"
+    },
+    {
+      "name": "MAC10 \"Ruby Shadow\"",
+      "rub": 649,
+      "stars": 484,
+      "usdt": 6.49,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Blizzard\"",
+      "rub": 649,
+      "stars": 484,
+      "usdt": 6.49,
+      "category": "skins"
+    },
+    {
+      "name": "Butterfly \"Cold Flame\"",
+      "rub": 680,
+      "stars": 507,
+      "usdt": 6.8,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"2 Years Red\"",
+      "rub": 712,
+      "stars": 531,
+      "usdt": 7.12,
+      "category": "skins"
+    },
+    {
+      "name": "Flip \"Frozen\"",
+      "rub": 720,
+      "stars": 537,
+      "usdt": 7.2,
+      "category": "skins"
+    },
+    {
+      "name": "Tanto \"Pearl Abyss\"",
+      "rub": 800,
+      "stars": 597,
+      "usdt": 8.0,
+      "category": "skins"
+    },
+    {
+      "name": "TEC-9 \"Necromancer\" StatTrack",
+      "rub": 960,
+      "stars": 716,
+      "usdt": 9.6,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Yakuza\" StatTrack",
+      "rub": 973,
+      "stars": 726,
+      "usdt": 9.73,
+      "category": "skins"
+    },
+    {
+      "name": "M40 \"Monster\" StatTrack",
+      "rub": 973,
+      "stars": 726,
+      "usdt": 9.73,
+      "category": "skins"
+    },
+    {
+      "name": "FN FAL \"Leather\"",
+      "rub": 1000,
+      "stars": 746,
+      "usdt": 10.0,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Mecha\" StatTrack",
+      "rub": 1000,
+      "stars": 746,
+      "usdt": 10.0,
+      "category": "skins"
+    },
+    {
+      "name": "MP7 \"Blizzard\" StatTrack",
+      "rub": 1000,
+      "stars": 746,
+      "usdt": 10.0,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Radiation\" StatTrack",
+      "rub": 1000,
+      "stars": 746,
+      "usdt": 10.0,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Geometric\"",
+      "rub": 1000,
+      "stars": 746,
+      "usdt": 10.0,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Geometric\" StatTrack",
+      "rub": 1000,
+      "stars": 746,
+      "usdt": 10.0,
+      "category": "skins"
+    },
+    {
+      "name": "Dual Daggers \"Harmony\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "Flip \"Vortex\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "Kunai \"Radiation\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "Kunai \"Snow Camo\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Acid\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Iron\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Universe\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Blizzard\" StatTrack",
+      "rub": 1920,
+      "stars": 1433,
+      "usdt": 19.2,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"Treasure Hunter\"",
+      "rub": 2000,
+      "stars": 1493,
+      "usdt": 20.0,
+      "category": "skins"
+    },
+    {
+      "name": "M9 Bayonet \"Frozen\"",
+      "rub": 2000,
+      "stars": 1493,
+      "usdt": 20.0,
+      "category": "skins"
+    },
+    {
+      "name": "AKR \"2 Years Red\"",
+      "rub": 2400,
+      "stars": 1791,
+      "usdt": 24.0,
+      "category": "skins"
+    },
+    {
+      "name": "Flip \"Dragon Glass\"",
+      "rub": 2800,
+      "stars": 2090,
+      "usdt": 28.0,
+      "category": "skins"
     }
   ]
 }
