@@ -44,7 +44,33 @@
     "quantity": 1,
     "goldpass": false
     },
-    
+    { 
+    "name": "10 Levels Battle Pass",
+    "rub": 50,
+    "stars": 36,
+    "usdt": 0.64,
+    "category": "battlepass",
+    "quantity": 10,
+    "goldpass": false
+    },
+    { 
+    "name": "25 Levels Battle Pass",
+    "rub": 109,
+    "stars": 80,
+    "usdt": 1.39,
+    "category": "battlepass",
+    "quantity": 25,
+    "goldpass": false
+    },
+    { 
+    "name": "75 Levels Battle Pass",
+    "rub": 339,
+    "stars": 300,
+    "usdt": 4.34,
+    "category": "battlepass",
+    "quantity": 75,
+    "goldpass": false
+    },
     {
       "name": "5000 Gold",
       "rub": 49,
@@ -2328,13 +2354,6 @@
       "category": "skins"
     },
     {
-      "name": "Dual Daggers \"Harmony\"",
-      "rub": 1299,
-      "stars": 969,
-      "usdt": 12.99,
-      "category": "skins"
-    },
-    {
       "name": "Flip \"Vortex\"",
       "rub": 1299,
       "stars": 969,
@@ -2350,20 +2369,6 @@
     },
     {
       "name": "Kunai \"Snow Camo\"",
-      "rub": 1299,
-      "stars": 969,
-      "usdt": 12.99,
-      "category": "skins"
-    },
-    {
-      "name": "jKommando \"Acid\"",
-      "rub": 1299,
-      "stars": 969,
-      "usdt": 12.99,
-      "category": "skins"
-    },
-    {
-      "name": "jKommando \"Iron\"",
       "rub": 1299,
       "stars": 969,
       "usdt": 12.99,
