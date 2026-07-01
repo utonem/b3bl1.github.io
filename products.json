@@ -14,6 +14,16 @@
       "name": "skins",
       "ru": "Скины",
       "eng": "Skins"
+    },
+    {
+      "name": "gloves",
+      "ru": "Перчатки",
+      "eng": "Gloves"
+    },
+    {
+      "name": "medal",
+      "ru": "Медали",
+      "eng": "Medals"
     }
   ],
   "products": [
@@ -35,41 +45,41 @@
       "quantity": 20,
       "goldpass": true
     },
-    { 
-    "name": "1 Level Battle Pass",
-    "rub": 5,
-    "stars": 5,
-    "usdt": 0.05,
-    "category": "battlepass",
-    "quantity": 1,
-    "goldpass": false
+    {
+      "name": "1 Level Battle Pass",
+      "rub": 5,
+      "stars": 4,
+      "usdt": 0.05,
+      "category": "battlepass",
+      "quantity": 1,
+      "goldpass": false
     },
-    { 
-    "name": "10 Levels Battle Pass",
-    "rub": 50,
-    "stars": 36,
-    "usdt": 0.64,
-    "category": "battlepass",
-    "quantity": 10,
-    "goldpass": false
+    {
+      "name": "10 Levels Battle Pass",
+      "rub": 50,
+      "stars": 37,
+      "usdt": 0.5,
+      "category": "battlepass",
+      "quantity": 10,
+      "goldpass": false
     },
-    { 
-    "name": "25 Levels Battle Pass",
-    "rub": 109,
-    "stars": 80,
-    "usdt": 1.39,
-    "category": "battlepass",
-    "quantity": 25,
-    "goldpass": false
+    {
+      "name": "25 Levels Battle Pass",
+      "rub": 109,
+      "stars": 81,
+      "usdt": 1.09,
+      "category": "battlepass",
+      "quantity": 25,
+      "goldpass": false
     },
-    { 
-    "name": "75 Levels Battle Pass",
-    "rub": 339,
-    "stars": 300,
-    "usdt": 4.34,
-    "category": "battlepass",
-    "quantity": 75,
-    "goldpass": false
+    {
+      "name": "75 Levels Battle Pass",
+      "rub": 339,
+      "stars": 253,
+      "usdt": 3.39,
+      "category": "battlepass",
+      "quantity": 75,
+      "goldpass": false
     },
     {
       "name": "5000 Gold",
@@ -105,6 +115,44 @@
       "stars": 596,
       "usdt": 7.99,
       "category": "gold"
+    },
+    {
+      "name": "Dragon Rise Knife + 25000 Gold",
+      "rub": 999,
+      "stars": 746,
+      "usdt": 9.99,
+      "category": "promotion",
+      "bundle": [
+        {
+          "category": "skins",
+          "name": "Butterfly Dragon Rise"
+        },
+        {
+          "category": "gold",
+          "name": "25000 Gold"
+        }
+      ]
+    },
+    {
+      "name": "Furious Set + 50000 Gold",
+      "rub": 1499,
+      "stars": 1119,
+      "usdt": 14.99,
+      "category": "promotion",
+      "bundle": [
+        {
+          "category": "skins",
+          "name": "AKR Furious"
+        },
+        {
+          "category": "skins",
+          "name": "Desert Furious"
+        },
+        {
+          "category": "gold",
+          "name": "50000 Gold"
+        }
+      ]
     },
     {
       "name": "AKR \"Carbon\"",
@@ -178,13 +226,6 @@
     },
     {
       "name": "AKR12 \"Armored\"",
-      "rub": 10,
-      "stars": 7,
-      "usdt": 0.1,
-      "category": "skins"
-    },
-    {
-      "name": "AKR12 \"Aurora\"",
       "rub": 10,
       "stars": 7,
       "usdt": 0.1,
@@ -415,13 +456,6 @@
       "category": "skins"
     },
     {
-      "name": "FAMAS \"Anger\" StatTrack",
-      "rub": 10,
-      "stars": 7,
-      "usdt": 0.1,
-      "category": "skins"
-    },
-    {
       "name": "FAMAS \"Beagle\"",
       "rub": 10,
       "stars": 7,
@@ -444,6 +478,13 @@
     },
     {
       "name": "FabM \"Cursed Fire\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "FabM \"Parrot\"",
       "rub": 10,
       "stars": 7,
       "usdt": 0.1,
@@ -493,13 +534,6 @@
     },
     {
       "name": "G22 \"Yellow Line\"",
-      "rub": 10,
-      "stars": 7,
-      "usdt": 0.1,
-      "category": "skins"
-    },
-    {
-      "name": "M110 \"Flow\" StatTrack",
       "rub": 10,
       "stars": 7,
       "usdt": 0.1,
@@ -576,6 +610,13 @@
       "category": "skins"
     },
     {
+      "name": "M40 \"PRO\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
       "name": "M40 \"Quake\"",
       "rub": 10,
       "stars": 7,
@@ -611,13 +652,6 @@
       "category": "skins"
     },
     {
-      "name": "M60 \"Steam Beast\" StatTrack",
-      "rub": 10,
-      "stars": 7,
-      "usdt": 0.1,
-      "category": "skins"
-    },
-    {
       "name": "MP7 \"Arcade\"",
       "rub": 10,
       "stars": 7,
@@ -646,6 +680,13 @@
       "category": "skins"
     },
     {
+      "name": "MP7 \"Offroad\"",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
       "name": "P350 \"Nano\"",
       "rub": 10,
       "stars": 7,
@@ -661,6 +702,13 @@
     },
     {
       "name": "P350 \"Neon\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Rally\" StatTrack",
       "rub": 10,
       "stars": 7,
       "usdt": 0.1,
@@ -696,6 +744,13 @@
     },
     {
       "name": "P90 \"Ghoul\" StatTrack",
+      "rub": 10,
+      "stars": 7,
+      "usdt": 0.1,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"Pilot\"",
       "rub": 10,
       "stars": 7,
       "usdt": 0.1,
@@ -758,14 +813,14 @@
       "category": "skins"
     },
     {
-      "name": "SM1014 \"Quake\"",
+      "name": "SM1014 \"Tropic\"",
       "rub": 10,
       "stars": 7,
       "usdt": 0.1,
       "category": "skins"
     },
     {
-      "name": "SM1014 \"Tropic\"",
+      "name": "SM1014 \"Wave\" StatTrack",
       "rub": 10,
       "stars": 7,
       "usdt": 0.1,
@@ -891,6 +946,13 @@
       "category": "skins"
     },
     {
+      "name": "AWM \"BOOM\" StatTrack",
+      "rub": 12,
+      "stars": 9,
+      "usdt": 0.12,
+      "category": "skins"
+    },
+    {
       "name": "AWM \"Genesis\"",
       "rub": 12,
       "stars": 9,
@@ -912,17 +974,17 @@
       "category": "skins"
     },
     {
-      "name": "AWM \"BOOM\" StatTrack",
+      "name": "FabM \"Flight\"",
       "rub": 15,
       "stars": 11,
       "usdt": 0.15,
       "category": "skins"
     },
     {
-      "name": "FabM \"Flight\"",
-      "rub": 15,
-      "stars": 11,
-      "usdt": 0.15,
+      "name": "AKR12 \"Armored\" StatTrack",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
       "category": "skins"
     },
     {
@@ -961,6 +1023,13 @@
       "category": "skins"
     },
     {
+      "name": "M4 \"Necromancer\" StatTrack",
+      "rub": 16,
+      "stars": 12,
+      "usdt": 0.16,
+      "category": "skins"
+    },
+    {
       "name": "P350 \"Autumn\" StatTrack",
       "rub": 16,
       "stars": 12,
@@ -982,13 +1051,6 @@
       "category": "skins"
     },
     {
-      "name": "AKR12 \"Armored\" StatTrack",
-      "rub": 19,
-      "stars": 14,
-      "usdt": 0.19,
-      "category": "skins"
-    },
-    {
       "name": "FabM \"Waste\"",
       "rub": 19,
       "stars": 14,
@@ -997,13 +1059,6 @@
     },
     {
       "name": "G22 \"Scale\"",
-      "rub": 19,
-      "stars": 14,
-      "usdt": 0.19,
-      "category": "skins"
-    },
-    {
-      "name": "P90 \"Pilot\"",
       "rub": 19,
       "stars": 14,
       "usdt": 0.19,
@@ -1046,9 +1101,9 @@
     },
     {
       "name": "P90 \"Samurai\" StatTrack",
-      "rub": 21,
-      "stars": 16,
-      "usdt": 0.21,
+      "rub": 20,
+      "stars": 15,
+      "usdt": 0.2,
       "category": "skins"
     },
     {
@@ -1056,13 +1111,6 @@
       "rub": 22,
       "stars": 16,
       "usdt": 0.22,
-      "category": "skins"
-    },
-    {
-      "name": "M4 \"Necromancer\" StatTrack",
-      "rub": 23,
-      "stars": 17,
-      "usdt": 0.23,
       "category": "skins"
     },
     {
@@ -1087,7 +1135,7 @@
       "category": "skins"
     },
     {
-      "name": "Scorpion \"Scratch\"",
+      "name": "TEC-9 \"Reactor\"",
       "rub": 24,
       "stars": 18,
       "usdt": 0.24,
@@ -1095,23 +1143,9 @@
     },
     {
       "name": "Scorpion \"Sea Eye\"",
-      "rub": 24,
-      "stars": 18,
-      "usdt": 0.24,
-      "category": "skins"
-    },
-    {
-      "name": "Scorpion \"Veil\"",
-      "rub": 24,
-      "stars": 18,
-      "usdt": 0.24,
-      "category": "skins"
-    },
-    {
-      "name": "TEC-9 \"Reactor\"",
-      "rub": 24,
-      "stars": 18,
-      "usdt": 0.24,
+      "rub": 26,
+      "stars": 19,
+      "usdt": 0.26,
       "category": "skins"
     },
     {
@@ -1136,7 +1170,21 @@
       "category": "skins"
     },
     {
+      "name": "AKR12 \"Aurora\"",
+      "rub": 29,
+      "stars": 22,
+      "usdt": 0.29,
+      "category": "skins"
+    },
+    {
       "name": "G22 \"Inferno\"",
+      "rub": 29,
+      "stars": 22,
+      "usdt": 0.29,
+      "category": "skins"
+    },
+    {
+      "name": "SM1014 \"Quake\"",
       "rub": 29,
       "stars": 22,
       "usdt": 0.29,
@@ -1147,6 +1195,13 @@
       "rub": 29,
       "stars": 22,
       "usdt": 0.29,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Railgun\" StatTrack",
+      "rub": 32,
+      "stars": 24,
+      "usdt": 0.32,
       "category": "skins"
     },
     {
@@ -1171,10 +1226,17 @@
       "category": "skins"
     },
     {
-      "name": "AKR12 \"Railgun\" StatTrack",
-      "rub": 35,
-      "stars": 26,
-      "usdt": 0.35,
+      "name": "Scorpion \"Scratch\"",
+      "rub": 32,
+      "stars": 24,
+      "usdt": 0.32,
+      "category": "skins"
+    },
+    {
+      "name": "Scorpion \"Veil\"",
+      "rub": 33,
+      "stars": 25,
+      "usdt": 0.33,
       "category": "skins"
     },
     {
@@ -1269,13 +1331,6 @@
       "category": "skins"
     },
     {
-      "name": "AKR12 \"Geometric\"",
-      "rub": 40,
-      "stars": 30,
-      "usdt": 0.4,
-      "category": "skins"
-    },
-    {
       "name": "AWM \"Genesis\" StatTrack",
       "rub": 40,
       "stars": 30,
@@ -1291,13 +1346,6 @@
     },
     {
       "name": "M16 \"Winged\" StatTrack",
-      "rub": 40,
-      "stars": 30,
-      "usdt": 0.4,
-      "category": "skins"
-    },
-    {
-      "name": "M40 \"PRO\"",
       "rub": 40,
       "stars": 30,
       "usdt": 0.4,
@@ -1339,13 +1387,6 @@
       "category": "skins"
     },
     {
-      "name": "jKommando \"Floral\"",
-      "rub": 40,
-      "stars": 30,
-      "usdt": 0.4,
-      "category": "skins"
-    },
-    {
       "name": "M110 \"Transition\" StatTrack",
       "rub": 44,
       "stars": 33,
@@ -1353,17 +1394,17 @@
       "category": "skins"
     },
     {
-      "name": "jKommando \"Ancient\"",
+      "name": "jKommando \"Luxury\"",
       "rub": 46,
       "stars": 34,
       "usdt": 0.46,
       "category": "skins"
     },
     {
-      "name": "jKommando \"Luxury\"",
-      "rub": 46,
-      "stars": 34,
-      "usdt": 0.46,
+      "name": "jKommando \"Ancient\"",
+      "rub": 47,
+      "stars": 35,
+      "usdt": 0.47,
       "category": "skins"
     },
     {
@@ -1472,20 +1513,6 @@
       "category": "skins"
     },
     {
-      "name": "P350 \"Rally\" StatTrack",
-      "rub": 58,
-      "stars": 43,
-      "usdt": 0.58,
-      "category": "skins"
-    },
-    {
-      "name": "SM1014 \"Wave\" StatTrack",
-      "rub": 58,
-      "stars": 43,
-      "usdt": 0.58,
-      "category": "skins"
-    },
-    {
       "name": "TEC-9 \"Tropic\" StatTrack",
       "rub": 58,
       "stars": 43,
@@ -1535,6 +1562,13 @@
       "category": "skins"
     },
     {
+      "name": "AKR12 \"Geometric\"",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
       "name": "AWM \"Polar Night\" StatTrack",
       "rub": 80,
       "stars": 60,
@@ -1543,13 +1577,6 @@
     },
     {
       "name": "F/S \"Enforcer\"",
-      "rub": 80,
-      "stars": 60,
-      "usdt": 0.8,
-      "category": "skins"
-    },
-    {
-      "name": "Karambit \"Universe\"",
       "rub": 80,
       "stars": 60,
       "usdt": 0.8,
@@ -1570,7 +1597,21 @@
       "category": "skins"
     },
     {
+      "name": "Tanto \"Yakuza\"",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
       "name": "UMP45 \"Geometric\" StatTrack",
+      "rub": 80,
+      "stars": 60,
+      "usdt": 0.8,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Floral\"",
       "rub": 80,
       "stars": 60,
       "usdt": 0.8,
@@ -1598,28 +1639,7 @@
       "category": "skins"
     },
     {
-      "name": "Tanto \"Yakuza\"",
-      "rub": 88,
-      "stars": 66,
-      "usdt": 0.88,
-      "category": "skins"
-    },
-    {
       "name": "MP5 \"Project Z9\" StatTrack",
-      "rub": 96,
-      "stars": 72,
-      "usdt": 0.96,
-      "category": "skins"
-    },
-    {
-      "name": "P90 \"Iron Will\" StatTrack",
-      "rub": 96,
-      "stars": 72,
-      "usdt": 0.96,
-      "category": "skins"
-    },
-    {
-      "name": "TEC-9 \"Necromancer\"",
       "rub": 96,
       "stars": 72,
       "usdt": 0.96,
@@ -1640,6 +1660,13 @@
       "category": "skins"
     },
     {
+      "name": "Karambit \"Dragon Glass\"",
+      "rub": 104,
+      "stars": 78,
+      "usdt": 1.04,
+      "category": "skins"
+    },
+    {
       "name": "MP5 \"Zone\"",
       "rub": 106,
       "stars": 79,
@@ -1647,10 +1674,10 @@
       "category": "skins"
     },
     {
-      "name": "Karambit \"Dragon Glass\"",
-      "rub": 112,
-      "stars": 84,
-      "usdt": 1.12,
+      "name": "Karambit \"Scratch\"",
+      "rub": 109,
+      "stars": 81,
+      "usdt": 1.09,
       "category": "skins"
     },
     {
@@ -1689,14 +1716,7 @@
       "category": "skins"
     },
     {
-      "name": "Karambit \"Claw\"",
-      "rub": 120,
-      "stars": 90,
-      "usdt": 1.2,
-      "category": "skins"
-    },
-    {
-      "name": "Karambit \"Scratch\"",
+      "name": "Karambit \"Universe\"",
       "rub": 120,
       "stars": 90,
       "usdt": 1.2,
@@ -1731,7 +1751,7 @@
       "category": "skins"
     },
     {
-      "name": "P90 \"R.O.N.I.N. mk9\" StatTrack",
+      "name": "TEC-9 \"Necromancer\"",
       "rub": 120,
       "stars": 90,
       "usdt": 1.2,
@@ -1752,13 +1772,6 @@
       "category": "skins"
     },
     {
-      "name": "FabM \"Parrot\"",
-      "rub": 129,
-      "stars": 96,
-      "usdt": 1.29,
-      "category": "skins"
-    },
-    {
       "name": "M4 \"Grand Prix\"",
       "rub": 129,
       "stars": 96,
@@ -1773,14 +1786,14 @@
       "category": "skins"
     },
     {
-      "name": "MP7 \"Offroad\"",
+      "name": "MP7 \"Palace\"",
       "rub": 129,
       "stars": 96,
       "usdt": 1.29,
       "category": "skins"
     },
     {
-      "name": "MP7 \"Palace\"",
+      "name": "USP \"Genesis\"",
       "rub": 129,
       "stars": 96,
       "usdt": 1.29,
@@ -1801,31 +1814,24 @@
       "category": "skins"
     },
     {
-      "name": "Desert Eagle \"Yakuza\"",
-      "rub": 152,
-      "stars": 113,
-      "usdt": 1.52,
-      "category": "skins"
-    },
-    {
-      "name": "M9 Bayonet \"Dragon Glass\"",
-      "rub": 152,
-      "stars": 113,
-      "usdt": 1.52,
-      "category": "skins"
-    },
-    {
-      "name": "Tanto \"Transistor\"",
-      "rub": 152,
-      "stars": 113,
-      "usdt": 1.52,
-      "category": "skins"
-    },
-    {
       "name": "USP \"2 Years\"",
       "rub": 152,
       "stars": 113,
       "usdt": 1.52,
+      "category": "skins"
+    },
+    {
+      "name": "Desert Eagle \"Yakuza\"",
+      "rub": 160,
+      "stars": 119,
+      "usdt": 1.6,
+      "category": "skins"
+    },
+    {
+      "name": "Karambit \"Claw\"",
+      "rub": 160,
+      "stars": 119,
+      "usdt": 1.6,
       "category": "skins"
     },
     {
@@ -1843,10 +1849,24 @@
       "category": "skins"
     },
     {
-      "name": "Tanto \"Malachite\"",
-      "rub": 160,
-      "stars": 119,
-      "usdt": 1.6,
+      "name": "FAMAS \"Anger\" StatTrack",
+      "rub": 193,
+      "stars": 144,
+      "usdt": 1.93,
+      "category": "skins"
+    },
+    {
+      "name": "M110 \"Flow\" StatTrack",
+      "rub": 193,
+      "stars": 144,
+      "usdt": 1.93,
+      "category": "skins"
+    },
+    {
+      "name": "M60 \"Steam Beast\" StatTrack",
+      "rub": 193,
+      "stars": 144,
+      "usdt": 1.93,
       "category": "skins"
     },
     {
@@ -1878,20 +1898,6 @@
       "category": "skins"
     },
     {
-      "name": "M4A1 \"K.I.N.G. v7.03\" StatTrack",
-      "rub": 200,
-      "stars": 149,
-      "usdt": 2.0,
-      "category": "skins"
-    },
-    {
-      "name": "P350 \"Radiation\"",
-      "rub": 200,
-      "stars": 149,
-      "usdt": 2.0,
-      "category": "skins"
-    },
-    {
       "name": "P90 \"Iron Will\"",
       "rub": 200,
       "stars": 149,
@@ -1913,21 +1919,14 @@
       "category": "skins"
     },
     {
-      "name": "AWM \"Sport V2\"",
+      "name": "M9 Bayonet \"Scratch\"",
       "rub": 232,
       "stars": 173,
       "usdt": 2.32,
       "category": "skins"
     },
     {
-      "name": "Kunai \"Luxury\"",
-      "rub": 240,
-      "stars": 179,
-      "usdt": 2.4,
-      "category": "skins"
-    },
-    {
-      "name": "Kunai \"Poison\"",
+      "name": "AKR \"Treasure Hunter\" StatTrack",
       "rub": 240,
       "stars": 179,
       "usdt": 2.4,
@@ -1941,7 +1940,7 @@
       "category": "skins"
     },
     {
-      "name": "M9 Bayonet \"Scratch\"",
+      "name": "M4A1 \"K.I.N.G. v7.03\" StatTrack",
       "rub": 240,
       "stars": 179,
       "usdt": 2.4,
@@ -1952,13 +1951,6 @@
       "rub": 240,
       "stars": 179,
       "usdt": 2.4,
-      "category": "skins"
-    },
-    {
-      "name": "AKR \"Treasure Hunter\" StatTrack",
-      "rub": 248,
-      "stars": 185,
-      "usdt": 2.48,
       "category": "skins"
     },
     {
@@ -1976,24 +1968,17 @@
       "category": "skins"
     },
     {
-      "name": "Karambit \"Snow Camo\"",
-      "rub": 280,
-      "stars": 209,
-      "usdt": 2.8,
+      "name": "AWM \"Sport V2\"",
+      "rub": 288,
+      "stars": 215,
+      "usdt": 2.88,
       "category": "skins"
     },
     {
-      "name": "FN FAL \"Phoenix Risen\"",
-      "rub": 304,
-      "stars": 227,
-      "usdt": 3.04,
-      "category": "skins"
-    },
-    {
-      "name": "jKommando \"Frozen\"",
-      "rub": 311,
-      "stars": 232,
-      "usdt": 3.11,
+      "name": "M9 Bayonet \"Universe\"",
+      "rub": 312,
+      "stars": 233,
+      "usdt": 3.12,
       "category": "skins"
     },
     {
@@ -2011,7 +1996,7 @@
       "category": "skins"
     },
     {
-      "name": "M9 Bayonet \"Universe\"",
+      "name": "M9 Bayonet \"Dragon Glass\"",
       "rub": 320,
       "stars": 239,
       "usdt": 3.2,
@@ -2019,6 +2004,13 @@
     },
     {
       "name": "TEC-9 \"Reactor\" StatTrack",
+      "rub": 320,
+      "stars": 239,
+      "usdt": 3.2,
+      "category": "skins"
+    },
+    {
+      "name": "Tanto \"Malachite\"",
       "rub": 320,
       "stars": 239,
       "usdt": 3.2,
@@ -2046,14 +2038,7 @@
       "category": "skins"
     },
     {
-      "name": "Karambit \"Frozen\"",
-      "rub": 360,
-      "stars": 269,
-      "usdt": 3.6,
-      "category": "skins"
-    },
-    {
-      "name": "Karambit \"Gold\"",
+      "name": "Flip \"Arctic\"",
       "rub": 360,
       "stars": 269,
       "usdt": 3.6,
@@ -2074,48 +2059,6 @@
       "category": "skins"
     },
     {
-      "name": "AKR12 \"Geometric\" StatTrack",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
-      "category": "skins"
-    },
-    {
-      "name": "Flip \"Arctic\"",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
-      "category": "skins"
-    },
-    {
-      "name": "Flip \"Stone Cold\"",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
-      "category": "skins"
-    },
-    {
-      "name": "G22 \"Frozen\" StatTrack",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
-      "category": "skins"
-    },
-    {
-      "name": "G22 \"White Carbon\" StatTrack",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
-      "category": "skins"
-    },
-    {
-      "name": "MP5 \"Zone\" StatTrack",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
-      "category": "skins"
-    },
-    {
       "name": "MP7 \"Revival\"",
       "rub": 400,
       "stars": 299,
@@ -2123,35 +2066,35 @@
       "category": "skins"
     },
     {
+      "name": "P90 \"Iron Will\" StatTrack",
+      "rub": 400,
+      "stars": 299,
+      "usdt": 4.0,
+      "category": "skins"
+    },
+    {
+      "name": "Kunai \"Poison\"",
+      "rub": 432,
+      "stars": 322,
+      "usdt": 4.32,
+      "category": "skins"
+    },
+    {
       "name": "P350 \"Blizzard\"",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
-      "category": "skins"
-    },
-    {
-      "name": "USP \"2 Years Red\"",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
-      "category": "skins"
-    },
-    {
-      "name": "USP \"Stone Cold\" StatTrack",
-      "rub": 400,
-      "stars": 299,
-      "usdt": 4.0,
+      "rub": 436,
+      "stars": 325,
+      "usdt": 4.36,
       "category": "skins"
     },
     {
       "name": "FN FAL \"Phoenix Risen\" StatTrack",
-      "rub": 444,
-      "stars": 331,
-      "usdt": 4.44,
+      "rub": 440,
+      "stars": 328,
+      "usdt": 4.4,
       "category": "skins"
     },
     {
-      "name": "M16 \"Iron Will\" StatTrack",
+      "name": "Karambit \"Gold\"",
       "rub": 444,
       "stars": 331,
       "usdt": 4.44,
@@ -2165,7 +2108,21 @@
       "category": "skins"
     },
     {
-      "name": "M16 \"Triumphant\" StatTrack",
+      "name": "MP5 \"Zone\" StatTrack",
+      "rub": 448,
+      "stars": 334,
+      "usdt": 4.48,
+      "category": "skins"
+    },
+    {
+      "name": "P350 \"Radiation\" StatTrack",
+      "rub": 448,
+      "stars": 334,
+      "usdt": 4.48,
+      "category": "skins"
+    },
+    {
+      "name": "TEC-9 \"Necromancer\" StatTrack",
       "rub": 448,
       "stars": 334,
       "usdt": 4.48,
@@ -2176,6 +2133,13 @@
       "rub": 452,
       "stars": 337,
       "usdt": 4.52,
+      "category": "skins"
+    },
+    {
+      "name": "AWM \"2 Years Red\"",
+      "rub": 480,
+      "stars": 358,
+      "usdt": 4.8,
       "category": "skins"
     },
     {
@@ -2193,6 +2157,20 @@
       "category": "skins"
     },
     {
+      "name": "P350 \"Radiation\"",
+      "rub": 480,
+      "stars": 358,
+      "usdt": 4.8,
+      "category": "skins"
+    },
+    {
+      "name": "Tanto \"Transistor\"",
+      "rub": 480,
+      "stars": 358,
+      "usdt": 4.8,
+      "category": "skins"
+    },
+    {
       "name": "F/S \"Poison\"",
       "rub": 524,
       "stars": 391,
@@ -2200,7 +2178,21 @@
       "category": "skins"
     },
     {
-      "name": "Karambit \"Cold Flame\"",
+      "name": "Kunai \"Luxury\"",
+      "rub": 541,
+      "stars": 404,
+      "usdt": 5.41,
+      "category": "skins"
+    },
+    {
+      "name": "AKR12 \"Geometric\" StatTrack",
+      "rub": 560,
+      "stars": 418,
+      "usdt": 5.6,
+      "category": "skins"
+    },
+    {
+      "name": "M16 \"Triumphant\" StatTrack",
       "rub": 560,
       "stars": 418,
       "usdt": 5.6,
@@ -2214,6 +2206,20 @@
       "category": "skins"
     },
     {
+      "name": "USP \"2 Years Red\"",
+      "rub": 560,
+      "stars": 418,
+      "usdt": 5.6,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"White Carbon\" StatTrack",
+      "rub": 569,
+      "stars": 425,
+      "usdt": 5.69,
+      "category": "skins"
+    },
+    {
       "name": "Kunai \"Cold Flame\"",
       "rub": 576,
       "stars": 430,
@@ -2221,21 +2227,21 @@
       "category": "skins"
     },
     {
-      "name": "USP \"Genesis\"",
-      "rub": 600,
-      "stars": 448,
-      "usdt": 6.0,
-      "category": "skins"
-    },
-    {
-      "name": "F/S \"Poison\" StatTrack",
-      "rub": 640,
-      "stars": 478,
-      "usdt": 6.4,
+      "name": "Butterfly \"Cold Flame\"",
+      "rub": 622,
+      "stars": 464,
+      "usdt": 6.22,
       "category": "skins"
     },
     {
       "name": "Desert Eagle \"Aureate\"",
+      "rub": 649,
+      "stars": 484,
+      "usdt": 6.49,
+      "category": "skins"
+    },
+    {
+      "name": "FN FAL \"Phoenix Risen\"",
       "rub": 649,
       "stars": 484,
       "usdt": 6.49,
@@ -2263,17 +2269,10 @@
       "category": "skins"
     },
     {
-      "name": "Butterfly \"Cold Flame\"",
-      "rub": 680,
-      "stars": 507,
-      "usdt": 6.8,
-      "category": "skins"
-    },
-    {
-      "name": "AWM \"2 Years Red\"",
-      "rub": 712,
+      "name": "M16 \"Iron Will\" StatTrack",
+      "rub": 711,
       "stars": 531,
-      "usdt": 7.12,
+      "usdt": 7.11,
       "category": "skins"
     },
     {
@@ -2284,14 +2283,21 @@
       "category": "skins"
     },
     {
-      "name": "Tanto \"Pearl Abyss\"",
+      "name": "Karambit \"Cold Flame\"",
+      "rub": 760,
+      "stars": 567,
+      "usdt": 7.6,
+      "category": "skins"
+    },
+    {
+      "name": "G22 \"Frozen\" StatTrack",
       "rub": 800,
       "stars": 597,
       "usdt": 8.0,
       "category": "skins"
     },
     {
-      "name": "TEC-9 \"Necromancer\" StatTrack",
+      "name": "Karambit \"Frozen\"",
       "rub": 960,
       "stars": 716,
       "usdt": 9.6,
@@ -2305,6 +2311,13 @@
       "category": "skins"
     },
     {
+      "name": "F/S \"Poison\" StatTrack",
+      "rub": 973,
+      "stars": 726,
+      "usdt": 9.73,
+      "category": "skins"
+    },
+    {
       "name": "M40 \"Monster\" StatTrack",
       "rub": 973,
       "stars": 726,
@@ -2312,35 +2325,21 @@
       "category": "skins"
     },
     {
-      "name": "FN FAL \"Leather\"",
-      "rub": 1000,
-      "stars": 746,
-      "usdt": 10.0,
-      "category": "skins"
-    },
-    {
       "name": "M60 \"Mecha\" StatTrack",
-      "rub": 1000,
-      "stars": 746,
-      "usdt": 10.0,
+      "rub": 973,
+      "stars": 726,
+      "usdt": 9.73,
       "category": "skins"
     },
     {
       "name": "MP7 \"Blizzard\" StatTrack",
-      "rub": 1000,
-      "stars": 746,
-      "usdt": 10.0,
+      "rub": 973,
+      "stars": 726,
+      "usdt": 9.73,
       "category": "skins"
     },
     {
-      "name": "P350 \"Radiation\" StatTrack",
-      "rub": 1000,
-      "stars": 746,
-      "usdt": 10.0,
-      "category": "skins"
-    },
-    {
-      "name": "USP \"Geometric\"",
+      "name": "Karambit \"Snow Camo\"",
       "rub": 1000,
       "stars": 746,
       "usdt": 10.0,
@@ -2351,6 +2350,48 @@
       "rub": 1000,
       "stars": 746,
       "usdt": 10.0,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Stone Cold\" StatTrack",
+      "rub": 1000,
+      "stars": 746,
+      "usdt": 10.0,
+      "category": "skins"
+    },
+    {
+      "name": "FN FAL \"Leather\"",
+      "rub": 1040,
+      "stars": 776,
+      "usdt": 10.4,
+      "category": "skins"
+    },
+    {
+      "name": "USP \"Geometric\"",
+      "rub": 1200,
+      "stars": 896,
+      "usdt": 12.0,
+      "category": "skins"
+    },
+    {
+      "name": "Dual Daggers \"Harmony\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "Flip \"Dragon Glass\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "Flip \"Stone Cold\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
       "category": "skins"
     },
     {
@@ -2368,7 +2409,28 @@
       "category": "skins"
     },
     {
-      "name": "Kunai \"Snow Camo\"",
+      "name": "Tanto \"Pearl Abyss\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Acid\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Frozen\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "jKommando \"Iron\"",
       "rub": 1299,
       "stars": 969,
       "usdt": 12.99,
@@ -2379,6 +2441,20 @@
       "rub": 1299,
       "stars": 969,
       "usdt": 12.99,
+      "category": "skins"
+    },
+    {
+      "name": "P90 \"R.O.N.I.N. mk9\" StatTrack",
+      "rub": 1606,
+      "stars": 1199,
+      "usdt": 16.06,
+      "category": "skins"
+    },
+    {
+      "name": "M9 Bayonet \"Frozen\"",
+      "rub": 1778,
+      "stars": 1327,
+      "usdt": 17.78,
       "category": "skins"
     },
     {
@@ -2396,13 +2472,6 @@
       "category": "skins"
     },
     {
-      "name": "M9 Bayonet \"Frozen\"",
-      "rub": 2000,
-      "stars": 1493,
-      "usdt": 20.0,
-      "category": "skins"
-    },
-    {
       "name": "AKR \"2 Years Red\"",
       "rub": 2400,
       "stars": 1791,
@@ -2410,11 +2479,487 @@
       "category": "skins"
     },
     {
-      "name": "Flip \"Dragon Glass\"",
+      "name": "Kunai \"Snow Camo\"",
+      "rub": 8000,
+      "stars": 5970,
+      "usdt": 80.0,
+      "category": "skins"
+    },
+    {
+      "name": "Gloves \"Steam Rider\"",
+      "rub": 38,
+      "stars": 28,
+      "usdt": 0.38,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Burning Fists\"",
+      "rub": 48,
+      "stars": 36,
+      "usdt": 0.48,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Punk\"",
+      "rub": 88,
+      "stars": 66,
+      "usdt": 0.88,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Champion\"",
+      "rub": 90,
+      "stars": 67,
+      "usdt": 0.9,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Living Flame\"",
+      "rub": 640,
+      "stars": 478,
+      "usdt": 6.4,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Retro Wave\"",
+      "rub": 720,
+      "stars": 537,
+      "usdt": 7.2,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Geometric\"",
+      "rub": 1000,
+      "stars": 746,
+      "usdt": 10.0,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Phoenix Risen\"",
+      "rub": 1299,
+      "stars": 969,
+      "usdt": 12.99,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Neuro\"",
+      "rub": 1600,
+      "stars": 1194,
+      "usdt": 16.0,
+      "category": "gloves"
+    },
+    {
+      "name": "Gloves \"Autumn\"",
       "rub": 2800,
       "stars": 2090,
       "usdt": 28.0,
-      "category": "skins"
+      "category": "gloves"
+    },
+    {
+      "name": "\"Bronze\" Assistance Medal",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Competitive\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year 2021\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year Madness 2020\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Project Z9\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Revival\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2018\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2019\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2020\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2021\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2022\" Bronze",
+      "rub": 40,
+      "stars": 30,
+      "usdt": 0.4,
+      "category": "medal"
+    },
+    {
+      "name": "\"Silver\" Assistance Medal",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"2 Years\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"4 Years\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Competitive\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year 2021\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year Madness 2020\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Project Z9\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Revival\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2018\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2019\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2020\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2021\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2022\" Silver",
+      "rub": 60,
+      "stars": 45,
+      "usdt": 0.6,
+      "category": "medal"
+    },
+    {
+      "name": "\"Gold\" Assistance Medal",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"2 Years\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"4 Years\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Competitive\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year 2021\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year Madness 2020\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Project Z9\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Revival\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2018\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2019\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2020\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2021\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2022\" Gold",
+      "rub": 85,
+      "stars": 63,
+      "usdt": 0.85,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year 2021\" Elite Gold",
+      "rub": 100,
+      "stars": 75,
+      "usdt": 1.0,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Revival\" Elite Gold",
+      "rub": 100,
+      "stars": 75,
+      "usdt": 1.0,
+      "category": "medal"
+    },
+    {
+      "name": "\"Platinum\" Assistance Medal",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Competitive\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year 2021\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year Madness 2020\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Project Z9\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Revival\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2018\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2019\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2020\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2021\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2022\" Platinum",
+      "rub": 110,
+      "stars": 82,
+      "usdt": 1.1,
+      "category": "medal"
+    },
+    {
+      "name": "\"Brilliant\" Assistance Medal",
+      "rub": 135,
+      "stars": 101,
+      "usdt": 1.35,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Competitive\" Brilliant",
+      "rub": 135,
+      "stars": 101,
+      "usdt": 1.35,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year 2021\" Diamond",
+      "rub": 135,
+      "stars": 101,
+      "usdt": 1.35,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"New Year Madness 2020\" Brilliant",
+      "rub": 135,
+      "stars": 101,
+      "usdt": 1.35,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Project Z9\" Brilliant",
+      "rub": 135,
+      "stars": 101,
+      "usdt": 1.35,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Revival\" Diamond",
+      "rub": 135,
+      "stars": 101,
+      "usdt": 1.35,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2021\" Diamond",
+      "rub": 135,
+      "stars": 101,
+      "usdt": 1.35,
+      "category": "medal"
+    },
+    {
+      "name": "Medal \"Veteran 2022\" Diamond",
+      "rub": 135,
+      "stars": 101,
+      "usdt": 1.35,
+      "category": "medal"
     }
   ]
 }
