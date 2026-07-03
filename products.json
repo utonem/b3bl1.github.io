@@ -97,21 +97,21 @@
     },
     {
       "name": "25000 Gold",
-      "rub": 67,
+      "rub": 75,
       "stars": 36,
       "usdt": 2.0,
       "category": "gold"
     },
     {
       "name": "50000 Gold",
-      "rub": 111,
+      "rub": 150,
       "stars": 80,
       "usdt": 3.99,
       "category": "gold"
     },
     {
       "name": "100000 Gold",
-      "rub": 220,
+      "rub": 300,
       "stars": 144,
       "usdt": 7.99,
       "category": "gold"
