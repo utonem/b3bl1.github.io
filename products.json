@@ -24,6 +24,11 @@
       "name": "medal",
       "ru": "Медали",
       "eng": "Medals"
+    },
+    {
+    "name": "profile",
+    "ru": "Изменение профиля",
+    "eng": "Profile change"
     }
   ],
   "products": [
@@ -53,6 +58,14 @@
       "category": "battlepass",
       "quantity": 1,
       "goldpass": false
+    },
+    {
+    "name" : "Изменение айди",
+    "rub": 400,
+    "stars": 300,
+    "usdt" : 5.24,
+    "category": "profile",
+    "idchange": true
     },
     {
       "name": "10 Levels Battle Pass",
