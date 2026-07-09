@@ -61,9 +61,9 @@
     },
     {
     "name" : "Изменение айди",
-    "rub": 400,
-    "stars": 300,
-    "usdt" : 5.24,
+    "rub": 300,
+    "stars": 250,
+    "usdt" : 4,
     "category": "profile",
     "idchange": true
     },
